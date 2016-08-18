@@ -1,0 +1,10 @@
+# Need to be more intune with what this file actually represents
+
+# [START runtime]
+runtime: custom
+vm: true
+# [END runtime]
+
+# Temporary setting to keep gcloud from uploading node_modules
+skip_files:
+- ^node_modules$
